@@ -1,0 +1,52 @@
+/* Resetting some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
